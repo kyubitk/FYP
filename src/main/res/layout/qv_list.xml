@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants">
+
+
+    <TextView
+        android:id="@+id/questinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="43dp"
+        android:layout_toEndOf="@+id/liked_btn"
+        android:gravity=""
+        android:text="@string/questdisplay" />
+
+    <Button
+        android:id="@+id/likedstar"
+        android:layout_width="65dp"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/questinfo"
+        android:layout_alignParentEnd="true"
+        android:text="@string/fav" />
+
+    <ImageButton
+        android:id="@+id/liked_btn"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_alignBottom="@+id/questinfo"
+        android:layout_alignParentStart="true"
+        android:elevation="0dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/arrow_up2" />
+
+</RelativeLayout>

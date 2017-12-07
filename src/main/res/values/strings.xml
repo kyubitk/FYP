@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">QnA</string>
+    <string name="back">Back</string>
+    <string name="submit">Submit</string>
+    <string name="enter_question">Enter Question</string>
+    <string name="test_words">Test Words</string>
+    <string name="questdisplay">Questdisplay</string>
+    <string name="fav">Fav</string>
+
+</resources>
